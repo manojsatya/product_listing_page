@@ -51,4 +51,13 @@ Once the web application is running, you can check the features mentioned above.
 
 We can build the web application for deployment using the following command.
 
-`npm build`
+`npm run build`
+
+#Things that could be improved
+
+- Can improve endless scrolling, May be add a button to fetch new list. Top or bottom
+- Better way to handle images of different sizes.
+- Cross browser support
+- Improve responsiveness
+- Better DX experience
+- Add more categories to filter page
