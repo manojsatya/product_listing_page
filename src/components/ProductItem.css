@@ -1,0 +1,63 @@
+.product-wrapper {
+  width: 400px;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  gap: 20px;
+}
+
+.product-brand {
+  position: absolute;
+  left: 0;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-color-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  max-width: 50%;
+  margin: auto;
+  pointer-events: all;
+}
+
+.product-color {
+  width: 20px;
+  height: 20px;
+  /* background-color: color; */
+  border-radius: 50%;
+}
+
+.product-add-to-compare {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  padding: 10px;
+  cursor: pointer;
+  top: 0px;
+  color: white;
+}
+
+.product-price-add-to-bucket-wrapper {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product-title {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  bottom: 0;
+  padding: 20px;
+  font-size: italic;
+  width: 100%;
+}
